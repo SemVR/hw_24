@@ -1,0 +1,34 @@
+.main-conteiner{
+	width: 200px;
+	height: 300px;
+	display: flex;
+	overflow: hidden;
+}
+img{
+	transition: all 0.75s ease;
+	pointer-events: none;
+}
+.slide-indicator-conteiner{
+	width: 200px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.slide-indicator{
+	background-color: black;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+.slide-indicator-active{
+	background-color: gray;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+.buttons-conteiner{
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
